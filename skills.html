@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pranay Mukirala</title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+
+        header::before {
+            background: url('cv.svg') no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 90%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.3;
+        }
+
+        .navigation {
+            font-family: 'Bree Serif', serif;
+            font-size: 20px;
+            display: flex;
+        }
+
+        .item {
+            color: white;
+            list-style: none;
+            padding: 20px 23px;
+            text-decoration: none;
+
+        }
+
+        .item:hover {
+            color: teal;
+            background-color: rgb(22, 22, 22);
+        }
+
+        section {
+            height: 244px;
+            font-family: 'Bree Serif', serif;
+            margin: 3px 130px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        h1:hover {
+            color: teal;
+        }
+
+
+
+        p {
+            text-align: center;
+        }
+
+        /* .border {
+            border: 2px groove white;
+            border-radius: 15px;
+        }*/
+
+        strong {
+            font-family: 'Fondamento', cursive;
+            color: rgb(89, 250, 250);
+        }
+
+        strong:hover {
+            color: turquoise;
+        }
+
+        .section {
+            /* background-image: url("social.png");
+            background-position: left top;
+            background-repeat: repeat;*/
+            padding-top: 100px;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+
+        #contacts img {
+            height: 50px;
+            width: 50px;
+            margin-left: 7px;
+            margin-right: 7px;
+            background-color: rgb(31, 30, 30) opacity:0.4;
+        }
+
+        #contacts a {
+            text-decoration: none;
+        }
+
+        #contacts img:hover {
+            opacity: 0.6;
+            height: 57px;
+            width: 57px;
+
+        }
+
+        #contacts {
+            text-align: center;
+        }
+
+        span d {
+            border: 2px dotted teal;
+            font-size: 35px;
+        }
+
+        h2 {
+            color: rgb(58, 100, 100);
+            font-size: 2rem;
+            font-family: 'Bree Serif', serif;
+            text-decoration: underline;
+        }
+
+        em {
+            color: rgb(50, 230, 230);
+            font-family: 'Pacifico', cursive;
+        }
+
+        .first>h2 {
+            color: rgb(159, 250, 250);
+            font-size: 3em;
+            font-family: 'Pacifico', cursive;
+            text-align: center;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        .border {
+            padding-top: 20px;
+            margin: 50px;
+        }
+
+        .border1 {
+            border: 12px groove rgb(138, 57, 57);
+            padding-top: 0px;
+            margin: 0px 200px;
+            font-family: 'Bree Serif', serif;
+        }
+
+        .left {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            padding-top: 20px;
+        }
+
+        .second {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            width: 70vw;
+            padding: 10px;
+        }
+
+        .inter {
+            text-align: right;
+        }
+
+        .skill {
+            border: 2px solid rgb(190, 75, 75);
+            opacity: 0.8;
+            padding: 2px;
+            margin: 2px;
+            border-radius: 5px;
+            display: inline;
+        }
+
+        .skill:hover {
+            background-color: coral;
+            color:black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <a href="index.html" class="item">Home</a>
+                <a href="about_me.html" class="item">About Me</a>
+                <a href="#" class="item">Works</a>
+                <a href="contact.html" class="item">Contact</a>
+            </ul>
+        </nav>
+    </header>
+    <!-- <section class="border">
+        <h1> <em>Skills</em></h1>
+    </section> -->
+    <div class="border1">
+        <div class="left">
+            <div class="first">
+                <h2>Skills</h2>
+            </div>
+            <div class="second">
+                <div class="gard inner">
+                    <p class="skill">Photoshop</p>
+                    <p class="skill">After Effects</p>
+                    <p class="skill">Premier Pro</p>
+                    
+                </div>
+                <div class="inter">
+                    <p class="skill">HTML,CSS,JS</p>
+                    <p class="skill">C,Java,Python</p>
+                    <p class="skill">DaVinci Resolve</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <!-- Contacts section start -->
+        <div class="section" id="contacts">
+            <h2><span>Follow Me</span></h2>
+            <div>
+                <a href="https://www.instagram.com/pranaymukirala" target="_blank">
+                    <img alt="Instagram" src="https://image.flaticon.com/icons/svg/733/733558.svg" />
+                </a>
+                <a href="https://www.facebook.com/pranaymukirala" target="_blank">
+                    <img alt="Facebook" src="https://image.flaticon.com/icons/svg/1312/1312139.svg" />
+                </a>
+                <a href="https://www.twitter.com/pranaymukirala" target="_blank">
+                    <img alt="Twitter" src="https://image.flaticon.com/icons/svg/185/185961.svg" />
+                </a>
+                <a href="https://github.com/pranaymukirala" target="_blank">
+                    <img alt="GitHub" src="https://image.flaticon.com/icons/svg/733/733553.svg" />
+                </a>
+                <a href="https://www.linkedin.com/in/pranay-mukirala-55242a136/" target="_blank">
+                    <img alt="Linkedin" src="https://image.flaticon.com/icons/svg/185/185964.svg" />
+                </a>
+            </div>
+        </div>
+        <!-- Contacts section end -->
+    </footer>
+</body>
+
+</html>
